@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8993b85b-b6bd-4f1a-917a-5c8d8e58c8c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -29,11 +31,8 @@
       <file leaf-file-name="renderer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#setScrollDisable#0" />
-              </folding>
+            <state relative-caret-position="1192">
+              <caret line="124" column="38" lean-forward="true" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -67,8 +66,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="523">
+              <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,8 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>d</find>
-      <find>dirname</find>
       <find>startdrag</find>
       <find>startd</find>
       <find>window.electronAPI.getDirectory</find>
@@ -142,6 +139,8 @@
       <find>600</find>
       <find>60</find>
       <find>right</find>
+      <find>openModal</find>
+      <find>closeModal</find>
     </findStrings>
     <replaceStrings>
       <replace>btnSortLeft</replace>
@@ -158,8 +157,8 @@
       <list>
         <option value="$PROJECT_DIR$/preload.js" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/renderer.js" />
       </list>
     </option>
@@ -256,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,7 +272,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,14 +378,18 @@
       <workItem from="1657966847992" duration="1598000" />
       <workItem from="1657968718976" duration="390000" />
       <workItem from="1657995536468" duration="216000" />
+      <workItem from="1658046240719" duration="1538000" />
+      <workItem from="1658048057846" duration="387000" />
+      <workItem from="1658051358690" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79840000" />
+    <option name="totallyTimeSpent" value="82953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -399,11 +402,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -605,13 +608,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9000">
-          <caret line="624" column="13" selection-start-line="624" selection-start-column="13" selection-end-line="624" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5010">
@@ -639,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/https.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4245">
@@ -656,20 +645,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9000">
+          <caret line="624" column="13" selection-start-line="624" selection-start-column="13" selection-end-line="624" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        <state relative-caret-position="523">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#setScrollDisable#0" />
-          </folding>
+        <state relative-caret-position="1192">
+          <caret line="124" column="38" lean-forward="true" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
         </state>
       </provider>
     </entry>

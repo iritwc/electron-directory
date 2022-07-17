@@ -12,6 +12,13 @@ const scrollDisable = document.querySelector("#scroll-disable");
 const NAME = 0;
 const TYPE = 1;
 
+// Get the modal
+var modal = document.getElementById("Modal");
+
+// Get the <span> element that closes the modal
+var closeModal = document.getElementsByClassName("close")[0];
+
+
 const removeAllChildNodes = (parent) => {
   while (parent.firstChild) {
     parent.removeChild(parent.firstChild);
@@ -107,9 +114,16 @@ async function bindFooter() {
   try {
     let pics = await window.electronAPI.getPics();
     pics.slice(0, 30).forEach((pic) => {
+
       const img = document.createElement('img');
       img.alt=pic.id;
       img.src = pic["download_url"];
+      img.addEventListener('click', () => {
+        // console.log(pic);
+        let content = document.querySelector(".modal-content > img");
+        content.src = pic["download_url"];
+        modal.style.display = "block";
+      });
 
       footer.appendChild(img);
     });
@@ -236,6 +250,17 @@ window.addEventListener('DOMContentLoaded', async () => {
     await handleSort(directoryModel.right);
   });
 
+// When the user clicks on <span> (x), close the modal
+  closeModal.onclick = function() {
+    modal.style.display = "none";
+  };
+
+// When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
 });
 
 window.addEventListener('beforeunload', _event => {
