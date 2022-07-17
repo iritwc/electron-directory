@@ -106,7 +106,7 @@ async function bindFooter() {
 
   try {
     let pics = await window.electronAPI.getPics();
-    pics.slice(0, 10).forEach((pic) => {
+    pics.slice(0, 30).forEach((pic) => {
       const img = document.createElement('img');
       img.alt=pic.id;
       img.src = pic["download_url"];
